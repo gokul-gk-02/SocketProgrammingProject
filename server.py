@@ -2,14 +2,14 @@ import socket
 import threading
 import os
 
-HOST = "192.168.1.203"
+SERVER = socket.gethostbyname(socket.gethostname())
 PORT = 5050
 
 BUFFER_SIZE = 64
 FORMAT = 'utf-8'
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind((HOST, PORT))
+server.bind((SERVER, PORT))
 
 server.listen()
 
