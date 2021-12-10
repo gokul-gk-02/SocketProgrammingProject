@@ -9,7 +9,7 @@ import os
 BUFFER_SIZE = 64
 FORMAT = 'utf-8'
 
-HOST = "192.168.1.203"
+HOST = socket.gethostbyname(socket.gethostname())
 PORT = 5050
 
 class Client:
