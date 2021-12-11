@@ -11,3 +11,8 @@ You **may** have to disable the firwall on your computer when trying to run the 
   
 ### Client file
   Download the file client.py in how many ever clients you need and run the code. You will be prompted to enter a nickname for each of the client. Other instructions will be visible for you in the tkinter Graphical User Interface you get in the client. Just enter whichever message you want to send to the chat room or the respective commands and the server will broadcast your file, message or respond to your command.
+
+### Commands
+**!INFO: ** Get information about the number of clients connected to the chat room, display their nick names. <br/>
+**!FILE <filename>: ** Send the file <filename> to the chat room. <br/>
+**!DISCONNECT: ** Leave the chat room.
