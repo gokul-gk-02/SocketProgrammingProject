@@ -3,7 +3,7 @@
 
 ### Prereqisites
 Python version: 3.10.0 <br/>
-The libraries threading, socket, os, tkinter are all part of The Python Standard Library, so no need to install any additional packages.
+The libraries threading, socket, os, tkinter are all part of The Python Standard Library, so no need to install any additional packages. <br/>
 You **may** have to disable the firwall on your computer when trying to run the files.
 
 ### Server file
