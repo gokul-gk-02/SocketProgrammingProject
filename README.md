@@ -1,6 +1,11 @@
 # Socket Programming Project
 ## Multi-media Group Chat
 
+### Prereqisites
+Python version: 3.10.0
+The libraries threading, socket, os, tkinter are all part of The Python Standard Library, so no need to install any additional packages.
+You **may** have to disable the firwall on your computer when trying to run the files.
+
 ### Server file
   Download the file server.py and if you want to connect with a client in a different network, replace the SERVER ip with the public IP Address of the system in which the server is running. Just run the server.py file
   
